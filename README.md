@@ -8,7 +8,7 @@ The current implementation analyzes public filings and earnings materials for Wa
 
 ## Demo
 
-![Enterprise Intelligence Agent](docs/DemoScreenshot.png)
+![Enterprise Intelligence Agent demo](docs/DemoScreenshot.png)
 
 ---
 
@@ -39,6 +39,8 @@ flowchart TD
     H --> I["Databricks Foundation Model"]
     I --> J["Streamlit Databricks App"]
     J --> K["Grounded Analysis and Sources"]
+
+```
 
 Stack
 - Databricks Free Edition
