@@ -8,7 +8,7 @@ The current implementation analyzes public filings and earnings materials for Wa
 
 ## Demo
 
-![Enterprise Intelligence Agent](docs/demoscreenshot.png)
+![Enterprise Intelligence Agent](docs/DemoScreenshot.png)
 
 ---
 
