@@ -29,16 +29,16 @@ The system retrieves relevant evidence from the underlying filings, injects that
 
 ```mermaid
 flowchart TD
-    A[Public Filings & Earnings Reports] --> B[Databricks Volume]
-    B --> C[Delta Document Table]
-    C --> D[Chunking + Metadata]
-    D --> E[Delta Chunk Table]
-    E --> F[Hybrid AI Search Index]
-    F --> G[Metadata-Aware Retrieval]
-    G --> H[RAG Context Assembly]
-    H --> I[Databricks Foundation Model]
-    I --> J[Streamlit Databricks App]
-    J --> K[Grounded Analysis + Sources]
+    A["Public Filings and Earnings Reports"] --> B["Databricks Volume"]
+    B --> C["Delta Document Table"]
+    C --> D["Chunking and Metadata"]
+    D --> E["Delta Chunk Table"]
+    E --> F["Hybrid AI Search Index"]
+    F --> G["Metadata-Aware Retrieval"]
+    G --> H["RAG Context Assembly"]
+    H --> I["Databricks Foundation Model"]
+    I --> J["Streamlit Databricks App"]
+    J --> K["Grounded Analysis and Sources"]
 
 Stack
 - Databricks Free Edition
